@@ -1,0 +1,37 @@
+﻿13 October, 2022
+Name: Vrund Patel
+ID: W0805859
+
+Step-1
+0128
+Created my Web Application Named VrundRugs. 
+I rebuilded my application and test it if it runs. it is running successfully.
+
+0130
+I created the Git repository Named VrundRUGS and pushed it.
+
+0135
+In the Views/Home/Index.cshtml I Updated My Company Name.
+
+0138: Added HelloWorldController.cs file in COntroller folder and replaced its content.
+
+0140: Checked by running /HelloWorld url and /HelloWorld/Welcome url
+It is successfully running :)
+
+0143: Changed Welcome method to display "Hello Vrund, NumTimes is: 4"
+
+0144: Started adding Views
+
+0146: Added new folder in Views and created an index.cshtml file inside it
+
+0150: Changed content of _Layout.cshtml and checked it by running it
+
+0152: Chnaged title and h2 in Index.cshtml
+
+0154: Now I will check it the browser title, primary and secondary heading is changed or not.
+
+0155: It is successfully implemented.
+
+0155: Changed Welcome method in HelloWorldController.cs as per the instructions.
+
+0157: Added Welcome.cshtml in HelloWorld folder inside Home
