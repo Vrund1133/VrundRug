@@ -70,3 +70,5 @@ tried for 5 times then find the error 🥵
 0717: Added the Migration successfully using 'Add-Migration InitialCreate -Context VrundRugContext' Command.
 
 0719: Updated Databse Successfully using 'Update-Database -Context VrundRugContext' Command.
+
+0731: Changed the text in _Layout.cshtml file for table.

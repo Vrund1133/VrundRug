@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace VrundRug.Migrations
@@ -12,7 +13,9 @@ namespace VrundRug.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        /*.Annotation("SqlServer:Identity", "1, 1"),*/
+                        .Annotation("SqlServer:ValueGenerationStrategy",
+                                 SqlServerValueGenerationStrategy.IdentityColumn),
                     MfgPlace = table.Column<string>(nullable: true),
                     MfgDate = table.Column<DateTime>(nullable: false),
                     Designs = table.Column<string>(nullable: true),
