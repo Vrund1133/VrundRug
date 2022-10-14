@@ -34,4 +34,16 @@ It is successfully running :)
 
 0155: Changed Welcome method in HelloWorldController.cs as per the instructions.
 
+
+
+14 October, 2022
+
 0157: Added Welcome.cshtml in HelloWorld folder inside Home
+
+0518: Created AboutUs.cshtml in Views/Home folder to add About us in navigation bar and added it is _Layout.cshtml and HomeController.cs
+
+0519: Statrted customizing Home page
+
+0530: Added navigation bar for my industry.
+
+0615: Modified Index.cshtml file in Home folder and created an page using html/css
