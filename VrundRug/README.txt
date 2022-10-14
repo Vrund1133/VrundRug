@@ -74,3 +74,19 @@ tried for 5 times then find the error 🥵
 0731: Changed the text in _Layout.cshtml file for table.
 
 0742: Examined the RugController file and Index.cshtml file code and comepleted model (part-4) with that.
+
+0745: Started Part-5 Working with Database.
+
+0747: Examined The SQL Table Named Rug on the SQL Server.
+
+0755: Started seeding the database.
+
+0756: Added new calss called SeedData.cs in the Models folder.
+
+0759: Starting Adding the data in the SeedData class file.
+
+0830: Added the data in the file.... Testing the application.
+
+0837: App is working successfully.
+
+0841: Completed The Part-5.
