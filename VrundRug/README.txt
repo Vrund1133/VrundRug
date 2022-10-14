@@ -65,3 +65,8 @@ tried for 5 times then find the error 🥵
 
 0711: Finally added the scaffold item. 
 
+0716: Adding Migration 
+
+0717: Added the Migration successfully using 'Add-Migration InitialCreate -Context VrundRugContext' Command.
+
+0719: Updated Databse Successfully using 'Update-Database -Context VrundRugContext' Command.
