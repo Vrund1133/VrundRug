@@ -78,7 +78,7 @@ namespace VrundRug.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,MfgPlace,MfgDate,Designs,Material,Price")] Rug rug)
+        public async Task<IActionResult> Create([Bind("Id,MfgPlace,MfgDate,Designs,Material,Price,Rating")] Rug rug)
         {
             if (ModelState.IsValid)
             {
@@ -110,7 +110,7 @@ namespace VrundRug.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,MfgPlace,MfgDate,Designs,Material,Price")] Rug rug)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,MfgPlace,MfgDate,Designs,Material,Price,Rating")] Rug rug)
         {
             if (id != rug.Id)
             {

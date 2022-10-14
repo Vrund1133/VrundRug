@@ -29,6 +29,7 @@ namespace VrundRug.Models
                         MfgDate = DateTime.Parse("2021-2-12"),
                         Designs = "Chevron Rug",
                         Material = "Wool",
+                        Rating = "R",
                         Price = 1922.22M
                     },
 
@@ -38,6 +39,7 @@ namespace VrundRug.Models
                         MfgDate = DateTime.Parse("2022-3-13"),
                         Designs = "Geometric Rug",
                         Material = "Wool",
+                        Rating = "R",
                         Price = 5543.00M
                     },
 
@@ -47,6 +49,7 @@ namespace VrundRug.Models
                         MfgDate = DateTime.Parse("2019-2-23"),
                         Designs = "Border Rug",
                         Material = "Nylon",
+                        Rating = "R",
                         Price = 3565.75M
                     },
 
@@ -56,6 +59,7 @@ namespace VrundRug.Models
                         MfgDate = DateTime.Parse("2020-4-15"),
                         Designs = "Distressed Rug",
                         Material = "Synthetic Jute",
+                        Rating = "R",
                         Price = 7899.99M
                     },
 
@@ -65,6 +69,7 @@ namespace VrundRug.Models
                          MfgDate = DateTime.Parse("2017-2-23"),
                          Designs = "Chilewich",
                          Material = "Wool",
+                         Rating = "R",
                          Price = 4087.54M
                      },
 
@@ -74,6 +79,7 @@ namespace VrundRug.Models
                           MfgDate = DateTime.Parse("2022-2-23"),
                           Designs = "Animal Print Rug",
                           Material = "Wool",
+                          Rating = "R",
                           Price = 9688.54M
                       },
 
@@ -83,6 +89,7 @@ namespace VrundRug.Models
                            MfgDate = DateTime.Parse("2019-2-23"),
                            Designs = "High-Low Rug",
                            Material = "Nylon",
+                           Rating = "R",
                            Price = 7234.66M
                        },
 
@@ -92,6 +99,7 @@ namespace VrundRug.Models
                             MfgDate = DateTime.Parse("2022-2-23"),
                             Designs = "Shag Rug",
                             Material = "Wool",
+                            Rating = "R",
                             Price = 10566.22M
                         },
 
@@ -101,6 +109,7 @@ namespace VrundRug.Models
                              MfgDate = DateTime.Parse("2021-2-23"),
                              Designs = "Border Rug",
                              Material = "Chilewich",
+                             Rating = "R",
                              Price = 4577.23M
                          },
 
@@ -110,6 +119,7 @@ namespace VrundRug.Models
                               MfgDate = DateTime.Parse("2018-2-23"),
                               Designs = "Novelty Rug",
                               Material = "Wool",
+                              Rating = "R", 
                               Price = 6987.47M
                           }
                 );

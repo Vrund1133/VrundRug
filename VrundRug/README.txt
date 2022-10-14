@@ -128,3 +128,23 @@ tried for 5 times then find the error 🥵
 1036: My Application is running successfully.
 
 1041: Completed Part-7.
+
+1042: Started Part-8.
+
+1043: Added the Rating Property in Models/Movie.cs file.
+
+1045: Added the Rating property in Create and Edit Action method  in the RugController.cs file.
+
+1047: Edited /Views/Movies/Index.cshtml file and added Rating field in that file.
+
+1050: Updated /Views/Movies/Create.cshtml file by adding Rating field.
+
+1053: Updated SeedData.cs by adding Rating field in it.
+
+1055: Adding Migration using 'Add-Migration Rating -Context VrundRugContext' command.... It runs successfully.
+
+1057: Updating database using 'Update-Database -Context VrundRugContext' command.... and it runs successfully.
+
+1059: Testing the application.
+
+1103: The Application is working and the Rating field has beed added.
