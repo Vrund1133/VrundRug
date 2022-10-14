@@ -102,3 +102,29 @@ tried for 5 times then find the error 🥵
 0911: Tested the Applicaction successfully.
 
 0913: Part-6 Completed.
+
+0935: Part-7 Started.
+
+0937: Updated the Index method in Controllers/MoviesController.cs Folder.
+
+0940: Tested Application Successfully.
+
+0943: Added the form tag in Views/Movies/Index.cshtml file. 
+ 
+0945: Tested the application and wow! 😗 Search Option is created.
+
+0955: Added the get method in Views/Movies/Index.cshtml file.
+
+0959: Adding a class named RugMaterialViewModel.cs in the Models folder.
+
+1002: Added the information in this file.
+
+1007: Updated the Index method in the RugsController.cs file.
+
+1015: Added search in by updating Index.cshtml file in Views/Movies Folder.
+
+1030: Running the application....
+
+1036: My Application is running successfully.
+
+1041: Completed Part-7.

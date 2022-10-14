@@ -1,5 +1,4 @@
-﻿@model IEnumerable<VrundRug.Models.Rug>
-
+﻿@model VrundRug.Models.RugMaterialViewModel
 @{
     ViewData["Title"] = "Index";
 }
@@ -9,51 +8,62 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-controller="Rugs" asp-action="Index" method="get">
+    <p>
+        <select asp-for="RugMaterial" asp-items="Model.Materials">
+            <option value="">All</option>
+        </select>
+
+        MfgPlace: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.MfgPlace)
+                @Html.DisplayNameFor(model => model.Rugs[0].MfgPlace)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.MfgDate)
+                @Html.DisplayNameFor(model => model.Rugs[0].MfgDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Designs)
+                @Html.DisplayNameFor(model => model.Rugs[0].Designs)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Material)
+                @Html.DisplayNameFor(model => model.Rugs[0].Material)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.Rugs[0].Price)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.MfgPlace)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MfgDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Designs)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Material)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.Rugs)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MfgPlace)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MfgDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Designs)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Material)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

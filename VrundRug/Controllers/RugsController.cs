@@ -19,10 +19,34 @@ namespace VrundRug.Controllers
             _context = context;
         }
 
-        // GET: Rugs
-        public async Task<IActionResult> Index()
+        // GET: Movies
+        public async Task<IActionResult> Index(string RugMaterial, string searchString)
         {
-            return View(await _context.Rug.ToListAsync());
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Rug
+                                            orderby m.Material
+                                            select m.Material;
+
+            var rugs = from m in _context.Rug
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                rugs = rugs.Where(s => s.MfgPlace.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(RugMaterial))
+            {
+                rugs = rugs.Where(x => x.Material == RugMaterial);
+            }
+
+            var RugMaterialVM = new RugMaterialViewModel
+            {
+                Materials = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Rugs = await rugs.ToListAsync()
+            };
+
+            return View(RugMaterialVM);
         }
 
         // GET: Rugs/Details/5
