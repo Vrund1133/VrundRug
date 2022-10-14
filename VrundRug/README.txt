@@ -55,3 +55,13 @@ It is successfully running :)
 0625: Installed pacage using 'Install-Package Microsoft.EntityFrameworkCore.SqlServer'
 
 0631: Created VrundRUGSContext.cs in Data folder.
+
+0655: Updated Startup.cs and StartupConfigure.cs file. Also updated appsetting.json file.
+
+0656: Added new Scaffold item in Controller folder.
+
+0656: Getting Error named No perameterless constroctor has defined! 
+tried for 5 times then find the error 🥵
+
+0711: Finally added the scaffold item. 
+
