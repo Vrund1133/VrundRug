@@ -31,7 +31,7 @@ namespace VrundRug
                 options.UseSqlServer(Configuration.GetConnectionString("VrundRugContext")));    //
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<VrundRugContext>();
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
