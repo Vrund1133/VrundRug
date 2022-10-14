@@ -150,3 +150,11 @@ tried for 5 times then find the error 🥵
 1103: The Application is working and the Rating field has beed added.
 
 1110: Started Part-9
+
+1112: Updating Rug.cs file and adding Required, StringLength, RegularExpression, and Range validation attributes.
+
+0445: Adding Rating field all the nessesory .cshtml files.
+
+0507: Checking validation How it Works...
+
+0525: Examining all the files and Completed with Part-9.
