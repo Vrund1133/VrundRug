@@ -90,3 +90,15 @@ tried for 5 times then find the error 🥵
 0837: App is working successfully.
 
 0841: Completed The Part-5.
+
+0843: Started Part-6.
+
+0845: Examining All the Data in the Rug.cs file.
+
+0855: Examining All the Data in the RugsController.cs file.
+
+0902: Examining All the Data in the Rugs/Edit.cshtml file.
+
+0911: Tested the Applicaction successfully.
+
+0913: Part-6 Completed.
