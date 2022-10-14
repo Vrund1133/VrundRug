@@ -47,3 +47,11 @@ It is successfully running :)
 0530: Added navigation bar for my industry.
 
 0615: Modified Index.cshtml file in Home folder and created an page using html/css
+
+0619: Started adding Model.
+
+0623: Created Rugs.cs file and added field in it. 
+
+0625: Installed pacage using 'Install-Package Microsoft.EntityFrameworkCore.SqlServer'
+
+0631: Created VrundRUGSContext.cs in Data folder.
