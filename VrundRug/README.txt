@@ -148,3 +148,7 @@ tried for 5 times then find the error 🥵
 1059: Testing the application.
 
 1103: The Application is working and the Rating field has beed added.
+
+1110: Started Part-9.
+
+1112: Updating Rug.cs file and adding Required, StringLength, RegularExpression, and Range validation attributes.

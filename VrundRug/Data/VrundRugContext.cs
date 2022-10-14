@@ -14,7 +14,6 @@ namespace VrundRug.Data
             : base(options)
         {
         }
-
-        public DbSet<Rug> Rug { get; set; }
+        public DbSet<VrundRug.Models.Rug> Rug { get; set; }
     }
 }
