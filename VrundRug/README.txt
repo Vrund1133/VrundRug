@@ -1,8 +1,8 @@
-﻿13 October, 2022
+﻿=======================================================================================13 October, 2022====================================================================================
 Name: Vrund Patel
 ID: W0805859
 
-Step-1
+=======================================================================================Step-1==============================================================================================
 0128
 Created my Web Application Named VrundRugs. 
 I rebuilded my application and test it if it runs. it is running successfully.
@@ -13,12 +13,16 @@ I created the Git repository Named VrundRUGS and pushed it.
 0135
 In the Views/Home/Index.cshtml I Updated My Company Name.
 
+======================================================================================Step-2==============================================================================================
+
 0138: Added HelloWorldController.cs file in COntroller folder and replaced its content.
 
 0140: Checked by running /HelloWorld url and /HelloWorld/Welcome url
 It is successfully running :)
 
 0143: Changed Welcome method to display "Hello Vrund, NumTimes is: 4"
+
+======================================================================================Step-3==============================================================================================
 
 0144: Started adding Views
 
@@ -36,7 +40,7 @@ It is successfully running :)
 
 
 
-14 October, 2022
+================================================================================14 October, 2022==========================================================================================
 
 0157: Added Welcome.cshtml in HelloWorld folder inside Home
 
@@ -47,6 +51,8 @@ It is successfully running :)
 0530: Added navigation bar for my industry.
 
 0615: Modified Index.cshtml file in Home folder and created an page using html/css
+
+====================================================================================Step-4================================================================================================
 
 0619: Started adding Model.
 
@@ -75,6 +81,8 @@ tried for 5 times then find the error 🥵
 
 0742: Examined the RugController file and Index.cshtml file code and comepleted model (part-4) with that.
 
+===================================================================================Step-5=================================================================================================
+
 0745: Started Part-5 Working with Database.
 
 0747: Examined The SQL Table Named Rug on the SQL Server.
@@ -91,6 +99,8 @@ tried for 5 times then find the error 🥵
 
 0841: Completed The Part-5.
 
+=================================================================================Step-6====================================================================================================
+
 0843: Started Part-6.
 
 0845: Examining All the Data in the Rug.cs file.
@@ -102,6 +112,8 @@ tried for 5 times then find the error 🥵
 0911: Tested the Applicaction successfully.
 
 0913: Part-6 Completed.
+
+=================================================================================Step-7====================================================================================================
 
 0935: Part-7 Started.
 
@@ -129,6 +141,8 @@ tried for 5 times then find the error 🥵
 
 1041: Completed Part-7.
 
+=================================================================================Step-8====================================================================================================
+
 1042: Started Part-8.
 
 1043: Added the Rating Property in Models/Movie.cs file.
@@ -148,6 +162,8 @@ tried for 5 times then find the error 🥵
 1059: Testing the application.
 
 1103: The Application is working and the Rating field has beed added.
+
+=================================================================================Step-9====================================================================================================
 
 1110: Started Part-9
 
