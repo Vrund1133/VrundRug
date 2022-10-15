@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "VrundRug20221014213829",
+      "defaultValue": "VrundRug20221014224752",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
